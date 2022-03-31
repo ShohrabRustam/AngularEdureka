@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { IStockDetails } from 'src/app/models/stock.model';
 
 @Component({
-  selector: 'app-stocks1',
+  selector: 'app-stocks3',
   templateUrl: './stocks3.component.html',
   styleUrls: ['./stocks3.component.css']
 })

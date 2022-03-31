@@ -13,7 +13,8 @@ import { ChildComponent } from './components/child/child.component';
 import { Stocks1Component } from './components/stocks1/stocks1.component';
 
 @NgModule({
-  declarations: [
+  declarations:
+  [
     AppComponent,
     StocksComponent,
     UserComponent,
@@ -23,6 +24,7 @@ import { Stocks1Component } from './components/stocks1/stocks1.component';
     ChildComponent,
     Stocks1Component
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
