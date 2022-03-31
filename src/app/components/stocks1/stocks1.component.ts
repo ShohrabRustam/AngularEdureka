@@ -12,8 +12,7 @@ export class Stocks1Component implements OnInit {
    }
 
   public ngOnInit(): void {
-    this.stock1Records = [
-      {
+    this.stock1Records = [{
       id: 1,
       stockName: "BioScrip, Inc.",
       stockMarketCap: 306.09,
@@ -53,8 +52,7 @@ export class Stocks1Component implements OnInit {
       releaseDate: "06/07/2021",
       symbol: "QSR",
       buyPrice:500
-    }
-  ]
+    }]
   }
 
 }

@@ -14,8 +14,29 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-
+        <tr *ngFor="let  stockRecord of stock1Records">
+        <td>
+            <p>{{stockRecord.id}}</p>
+        </td>
+        <td>
+            <p>{{stockRecord.stockName}}</p>
+        </td>
+        <td>
+            <p>{{stockRecord.stockMarketCap}}</p>
+        </td>
+        <td>
+            <p>{{stockRecord.stockMSector}}</p>
+        </td>
+        <td>
+            <p>{{stockRecord.releaseDate}}</p>
+        </td>
+        <td>
+            <p>{{stockRecord.symbol}}</p>
+        </td>
+        <td>
+            <p>{{stockRecord.buyPrice}}</p>
+        </td>
         </tr>
+
     </tbody>
 </table>
