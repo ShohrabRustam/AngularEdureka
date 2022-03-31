@@ -7,8 +7,11 @@ import { IStockDetails } from 'src/app/models/stock.model';
   styleUrls: ['./stocks2.component.css']
 })
 export class Stocks2Component implements OnInit {
+  public stock2Records:IStockDetails[];
 
-  constructor() { }
+  constructor() {
+    this.stock2Records= [];
+   }
 
   ngOnInit(): void {
   }
