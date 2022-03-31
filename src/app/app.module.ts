@@ -6,11 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StocksComponent } from './components/stocks/stocks.component';
 import { UserComponent } from './components/user/user.component';
-import { Stocks2Component } from './components/stocks2/stocks2.component';
 import { Stocks3Component } from './components/stocks3/stocks3.component';
 import { ParentComponent } from './components/parent/parent.component';
 import { ChildComponent } from './components/child/child.component';
 import { Stocks1Component } from './components/stocks1/stocks1.component';
+import { Stocks2Component } from './components/stocks2/stocks2.component';
 
 @NgModule({
   declarations:
@@ -18,11 +18,11 @@ import { Stocks1Component } from './components/stocks1/stocks1.component';
     AppComponent,
     StocksComponent,
     UserComponent,
-    Stocks2Component,
     Stocks3Component,
     ParentComponent,
     ChildComponent,
-    Stocks1Component
+    Stocks1Component,
+    Stocks2Component
   ],
 
   imports: [
