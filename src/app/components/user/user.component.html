@@ -1,0 +1,36 @@
+<h2>Add user</h2>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Address City</th>
+            <th scope="col">Address Pin code</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Update</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type="text" [(ngModel)]="user.name" *ngIf="isUserEditable">
+                <span *ngIf="!isUserEditable">{{user.name}}</span>
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="user.age" *ngIf="isUserEditable">
+                <span *ngIf="!isUserEditable">{{user.age}}</span>
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="user.address.city" *ngIf="isUserEditable">
+                <span *ngIf="!isUserEditable"> {{user.address.city}}</span>
+            </td>
+            <td>
+                <input type="text" [(ngModel)]="user.address.pincode" *ngIf="isUserEditable">
+                <span *ngIf="!isUserEditable">{{user.address.pincode}}</span>
+            </td>
+            <td><button class="btn btn-success" (click)="editUser()">Edit</button></td>
+            <td><button class="btn btn-primary" (click)="updateUser()">Update</button></td>
+        </tr>
+    </tbody>
+</table>
