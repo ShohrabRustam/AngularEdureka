@@ -14,7 +14,10 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let  stockRecord of stock1Records">
+        <tr *ngFor="let  stockRecord of stock1Records; let i = index;" >
+          <td>
+            <p>{{ i+1 }}</p>
+          </td>
         <td>
             <p>{{stockRecord.id}}</p>
         </td>

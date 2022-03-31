@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IStockDetails } from 'src/app/models/stock.model';
 
 @Component({
   selector: 'app-stocks1',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stocks1.component.css']
 })
 export class Stocks1Component implements OnInit {
-  public stock1Records:any[]
+  public stock1Records:IStockDetails[]
   constructor() {
      this.stock1Records = [];
    }

@@ -1,7 +1,7 @@
 export interface IStockDetails{
   id:number;
   stockName:string;
-  stockMarketCap:string;
+  stockMarketCap:number;
   stockMSector:string;
   releaseDate:string;
   symbol:string;
